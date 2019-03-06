@@ -1,0 +1,15 @@
+// Nicu Razvan-Alexandru 313CB
+
+	Realizarea temei a constat in 3 etape:
+	1) Etapa 1 presupune citirea din fisierul de input a asignarii variabilelor
+	si construirea listei simplu inlantuite de variabile.  
+	2) Etapa 2 presupune citirea celor N expresii, pe rand si construirea arbo-
+	relui de expresie. Am realizat vectorul de expresie in care am pus expresia
+	simplificata. Am realizat construirea arborelui cu o functie pe care am
+	explicat-o mai detaliat in continutul fisierului. 
+	3) Etapa 3 presupune analizarea expresiilor si returnarea valorii / codului de
+	eroare corespunzator. Am parcurs arborele nod cu nod, am verificat existenta unui
+	operator/ operand + valoarea acestuia si am apelat functia de calcul ce realiza
+	si returna rezultatul calcului(dat de catre operand) dintre operanzi.
+	La final am realizat eliberarea memoriei alocate, a listei de variabile si a
+	arborelui de expresie.
